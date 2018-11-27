@@ -3,7 +3,7 @@ import re
 
 path = "raw_data"
 files = os.listdir(path)
-output_filepath = "processed_data/data2.txt"
+output_filepath = "../processed_data/data2.txt"
 
 output_file = open(output_filepath, 'w+', encoding='utf-8')
 
