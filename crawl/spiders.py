@@ -15,7 +15,7 @@ game_name = 'portal2'
 game_id = '620'
 
 base_url = 'http://steamcommunity.com/app/' + game_id + '/homecontent/'
-file_path = 'steam_' + game_name + '.txt'
+file_path = '../raw_data/steam_' + game_name + '.txt'
 page_params = {'userreviewsoffset': 0, 'p': 0, 'workshopitemspage': 0, 'readytouseitemspage': 0,
                'mtxitemspage': 0, 'itemspage': 0, 'screenshotspage': 0, 'videospage': 0, 'artpage': 0,
                'allguidepage': 0, 'webguidepage': 0, 'integratedguidepage': 0, 'discussionspage': 0}
